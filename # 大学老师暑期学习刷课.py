@@ -137,7 +137,7 @@ def start_learn(web, need_learn_list):
 def main():
     # 设置 Chrome 浏览器选项
     options = Options()
-    options.add_argument("--headless")  # 无头模式
+    # options.add_argument("--headless")  # 无头模式
     options.add_argument("--disable-gpu")  # 禁用 GPU 加速
     options.add_argument("--no-sandbox")  # 禁用沙盒模式
     options.add_argument("--disable-dev-shm-usage")  # 禁用 /dev/shm 使用
